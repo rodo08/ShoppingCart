@@ -15,7 +15,7 @@ const Cart = () => {
           ))}
         </div>
         <div className="col-4">
-          <div className="bg-secondary p-3 text-white">
+          <div className="bg-dark p-3 text-white">
             <h5>Total items: {totalItems(cart)}</h5>
             <h5>Total price:${totalPrice(cart)} </h5>
             <button className="btn btn-warning">Checkout</button>
